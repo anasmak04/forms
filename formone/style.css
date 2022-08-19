@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./Sprinkle.png);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.section-right{
+    width: 40%;
+    height: 700px;
+    background-color: #1C538E;
+}
+
+.section-left{
+    width: 40%;
+    height: 700px;
+    background-color: #2b80db5c;
+}
+
+.logo{
+    display: flex;
+    justify-content:center;
+    margin: 10px;
+}
+.logo img{
+    width: 160px;
+}
+
+.form{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 80px;
+    flex-direction: column;
+}
+
+.form button{
+    margin-bottom: 20px;
+}
+
+
+.google{
+    width: 100px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 12px;
+    background-color: red;
+    margin: 0 auto;
+    display: block;
+}
+
+input,button{
+    background-color: #144fff12;
+    height: 44px;
+    width: 400px;
+    padding-left: 15px;
+    font-size: 15px;
+    box-shadow: none;
+    transition: 0.3s;
+    border-radius: 5px;
+}
