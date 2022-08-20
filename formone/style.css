@@ -13,27 +13,30 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    height: auto;
+    margin-top: 40px;
     
 }
 
 .section-right{
     width: 40%;
-    height: 700px;
-    background-color: #1C538E;
+    height: 650px;
+    background: -webkit-linear-gradient(316.36deg,#5c61a3,#105ba6 100%,#09203f 0);
 }
 
 .section-left{
     width: 40%;
-    height: 700px;
-    background-color: #2b80db5c;
+    height: 650px;
+    background-color: whitesmoke;
 }
 
 .logo{
     display: flex;
-    justify-content:center;
     margin: 10px;
+    margin-bottom: 50px;
+    padding-top: 30px;
 }
+
 .logo img{
     width: 160px;
 }
@@ -43,6 +46,10 @@ body{
     justify-content: flex-start;
     margin-top: 80px;
     flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+    text-align: center;
+    padding-top: 30px;
 }
 
 .form button{
@@ -52,22 +59,182 @@ body{
 
 .google{
     width: 100px;
-    width: 200px;
     height: 50px;
     cursor: pointer;
     margin-top: 12px;
-    background-color: red;
-    margin: 0 auto;
-    display: block;
+color: brown;     
+
+}
+
+.facebook{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 12px;
+ color: #4b83fc; 
+  
 }
 
 input,button{
-    background-color: #144fff12;
     height: 44px;
-    width: 400px;
+    width: 300px;
+    margin: 0 auto;
+    display: block;
     padding-left: 15px;
     font-size: 15px;
     box-shadow: none;
     transition: 0.3s;
     border-radius: 5px;
+}
+
+
+span{
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+    background-color: #4b83fc;    color: white;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+
+input{
+    background-color: #144fff12;
+    border-radius: 5px;
+    border: 1 px solid #144fff12;
+}
+
+.section-right img{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.section-right h1{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    
+}
+.title{
+    padding-top: 130px;
+}
+p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+   color: #4b83fc; 
+}
+
+
+@media screen and (max-width:968px) {
+    .container{
+        flex-direction: column;
+        margin-top: auto;
+    }
+
+
+    .section-right{
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    
+    .section-left{
+        height: auto;
+        width: 100%;
+        padding-top: 30px;
+    
+    }
+
+    .section-right h1{
+        text-align: center;
+
+    }
+
+    input,button{
+        height: 44px;
+        width: 700px;
+        margin: 0 auto;
+        display: block;
+        padding-left: 15px;
+        font-size: 15px;
+        box-shadow: none;
+        transition: 0.3s;
+        border-radius: 5px;
+    }
+    
+
+}
+
+@media screen and (max-width:760px) {
+
+    input,button{
+        height: 44px;
+        width: 550px;
+        margin: 0 auto;
+        display: block;
+        padding-left: 15px;
+        font-size: 15px;
+        box-shadow: none;
+        transition: 0.3s;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width:588px) {
+
+    input,button{
+        height: 44px;
+        width: 400px;
+        margin: 0 auto;
+        display: block;
+        padding-left: 15px;
+        font-size: 15px;
+        box-shadow: none;
+        transition: 0.3s;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    input,button{
+        height: 44px;
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+        padding-left: 15px;
+        font-size: 15px;
+        box-shadow: none;
+        transition: 0.3s;
+        border-radius: 5px;
+    }
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:321px) {
+
+    input,button{
+        height: 44px;
+        width: 200px;
+        margin: 0 auto;
+        display: block;
+        padding-left: 15px;
+        font-size: 15px;
+        box-shadow: none;
+        transition: 0.3s;
+        border-radius: 5px;
+    }
 }
